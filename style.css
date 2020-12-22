@@ -1,0 +1,237 @@
+body{
+     background: #EDF2F8; 
+}
+article{
+    display: block;
+    position: static;
+    padding-top: 40px; 
+}
+
+/* BLOCO -01 */
+#rec-01{
+    width: 699px;
+    height: 300px;
+    border-radius: 20px;
+    background: #733FC8;
+    margin: 30px 0px 0px 09px;
+}
+
+div h3{
+    width: 400%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px 50px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 17px;
+    width: 600%;
+    font-family: Arial;
+    margin: 0px 0px 0px 50px;
+}
+
+h1{
+    color: #fff;
+    font-size: 15px;
+    width: 1300%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 17px 0px 0px 0px;
+}
+
+h5{
+    width: 1600%;
+    font-size: 14px;
+    margin: 10px 0px 0px 0px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+div{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+
+/* Bloco -02 */
+#rec-02{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: #49556B;
+    margin: -300px 0px 0px 724px;
+}
+
+.title-h1{
+    width: 600%;
+    color: white;
+    margin: 10px 0px 0px -20px;
+    font-family: sans-serif;
+}
+
+.title-h5{
+    width: 650%;
+    margin: 10px 0px 0px -20px;
+}
+
+/* Bloco -03 */
+#rec-03{
+    width: 300px;
+    height: 580px;
+    box-shadow:  0px 4px 43px 22px rgba(68, 66, 66, 0.179);
+    background: #fff;
+    border-radius: 20px;
+    margin: -300px 0px 0px 1039px;
+}
+
+.name-01{
+    color: black;
+}
+
+.graduate-01{
+    color: rgba(0, 0, 0, 0.466);
+    width: 400%;
+}
+
+.title-h1-0{
+    color: black;
+    width: 600%;
+    margin: 20px 0px 0px -10px;
+}
+
+.title-h05{
+    color: rgba(0, 0, 0, 0.5);
+    width: 600%;
+    margin: 10px 0px 0px -10px;
+}
+
+/* Bloco -04*/
+#rec-04{
+    width: 294px;
+    height: 260px;
+    box-shadow:  0px 4px 43px 22px rgba(68, 66, 66, 0.170);
+    background: #fff;
+    border-radius: 20px;
+    margin: -260px 0px 0px 09px;
+}
+
+.title-h1-1{
+    color: black;
+    width: 500%;
+    font-family: sans-serif;
+}
+
+.title-h-05{
+    color: rgba(0, 0, 0, 0.5);
+    width: 600%;
+}
+
+/* Bloco -05*/
+#rec-05{
+    width: 700px;
+    height: 264px;
+    border-radius: 20px;
+    background: #18202D;
+    margin: -264px 0px 0px 320px;
+}
+
+@media  only screen and  (max-width: 768px),  only screen and (max-device-width: 768px){
+
+    /* Bloco-01 */
+    #rec-01{
+        width: 95%;
+        height: 310px;
+        margin: 04%;
+    }
+    div{
+        width: -80%;
+        height: -80%;
+    }
+    p{
+        font-size: 70%;
+    }
+    h1{
+        width: 700%;
+        font-size: 70%;
+        margin: 60% 0% 0% -40%;
+    }
+    h3{
+        font-size: 90%;
+    }
+    h5{
+        width: 700%;
+        font-size: 60%;
+        margin: 20% 0% 0% -40%;
+    }
+
+    /* Bloco -02 */
+    #rec-02{
+        width: 95%;
+        height: 200px;
+        margin: 04%;
+    }
+    .graduate{
+        font-size: 70%;
+    }
+    .title-h1{
+        width: 700%;
+        font-size: 70%;
+        margin: 60% 0% 0% -40%;
+    }
+    .title-h5{
+        width: 700%;
+        font-size: 60%;
+        margin: 20% 0% 0% -40%;
+    }
+
+    /* Bloco -03 */
+    #rec-03{
+        width: 95%;
+        height: 310px;
+        margin: 04%;
+    }
+    .graduate-01{
+        font-size: 70%;
+    }
+    .title-h1-0{
+        width: 700%;
+        font-size: 70%;
+        margin: 60% 0% 0% -40%;
+    }
+    .title-h05{
+        width: 700%;
+        font-size: 60%;
+        margin: 20% 0% 0% -40%;
+    }
+
+    /* Bloco -04 */
+    #rec-04{
+        width: 95%;
+        height: 200px;
+        margin: 04%;
+    }
+    .graduate-01{
+        font-size: 70%;
+    }
+    .title-h1-1{
+        width: 700%;
+        font-size: 70%;
+        margin: 60% 0% 0% -40%;
+    }
+    .title-h-05{
+        width: 700%;
+        font-size: 60%;
+        margin: 20% 0% 0% -40%;
+    }
+
+    /* Bloco -05 */
+    #rec-05{
+        width: 95%;
+        height: 300px;
+        margin: 04%;
+    }
+
+}
